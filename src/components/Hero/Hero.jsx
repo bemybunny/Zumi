@@ -9,8 +9,8 @@ const Hero = () => {
   return (
     <div>
        <Delivery/>
-       <Variety/>
-       <Brands/>
+       {/* <Variety/>
+       <Brands/> */}
        <Allcards/>
     </div>
   )
