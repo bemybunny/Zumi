@@ -1,0 +1,196 @@
+.cart{
+    display:flex;
+}
+.cartcnt{
+    display:flex;
+    flex-direction: column;
+    gap:20px;
+    border-radius: 4px;
+    margin:20px;
+    padding-top:40px;
+    padding-left:60px;
+    flex:12;
+}
+.cartbox{
+    border: 1px solid rgb(233, 233, 233);
+    padding:50px;
+    border-radius: 8px;
+    display: flex;
+    flex-direction: column;
+    gap:20px;
+}
+.cartaddress{
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    gap:50px;
+    box-shadow: 1px 1px 1px 1px grey;
+    width:300px;
+    padding:20px;
+}
+.cartaddressflex{
+    display:flex;
+    align-items: center;
+    gap:20px;
+}
+.cartadddresscolumn{
+    display:flex;
+    flex-direction: column;
+}
+.carboxheading{
+    color:rgb(2, 2, 12);
+    font-weight: 800;
+    font-size: 18px;
+}
+.cartaddress>button{
+    width:120px;
+    padding:9px;
+    color:green;
+    font-weight: 500;
+    background-color: white;
+    border:1px solid green;
+}
+.cartaddresscolumnspan{
+    font-size:12px;
+    color:grey;
+}
+.facircleplus{
+    position:relative;
+    left:-30px;
+    top:-7px;
+}
+.faplus{
+    position: relative;
+    left:-60px;
+    top:-7px;
+}
+.payment{
+    border: 1px solid rgb(231, 231, 231);
+    padding:20px;
+    color:rgb(68, 68, 68);
+    font-weight:600;
+    border-radius: 4px;
+}
+.cartpaymentcnt{
+    display:flex;
+    flex-direction: column;
+    gap:20px;
+    border-radius: 4px;
+    margin:20px;
+    margin-top: 60px;
+    padding-top:20px;
+    padding-left:30px;
+    padding-right:30px;
+    flex:5;
+    border: 1px solid rgb(233, 233, 233);
+}
+.cartdish{
+    display:flex;
+    align-items: center;
+    gap:10px;
+}
+.customize_flex{
+    display:flex;
+    justify-content: space-between;
+}
+.cartdishprice{
+    display:flex;
+    gap:20px;
+}
+.cartdishprice>button{
+    background-color:white;
+    border:1px solid green;
+    color:green;
+    width:80px;
+    height:40px;
+    border-radius: 6px;
+
+}
+.cartdishpricespan{
+    display:flex;
+    flex-direction: column;
+    color:grey;
+}
+.spanunderline{
+    text-decoration:line-through;
+}
+
+.cartpaymentcnt>button{
+    color:grey;
+    border-color: rgb(240, 240, 240);
+    padding:15px;
+}
+.cartpara{
+    border:1px solid rgb(218, 218, 218);
+    padding:10px;
+    color:grey;
+}
+.cartpara>p{
+    font-size:10px;
+}
+.opt{
+    font-size: 14px;
+    font-weight: 600;
+    color:rgb(10, 10, 10);
+}
+.billflexbox{
+    display:flex;
+    flex-direction: column;
+    gap:5px;
+}
+.billflex{
+    display: flex;
+    justify-content: space-between;
+    font-size:10px;
+    color:grey;
+}
+
+.red{
+    color:red;
+}
+.billflexpay{
+    font-weight:800;
+    color:black;
+}
+.cartitems-promocode{
+    flex:1;
+    font-size:16px;
+    font-weight:500;
+}
+.cartitems-promocode p{
+    color:#555;
+}
+.cartitems-promobox{
+    width:504px;
+    margin-top:15px;
+    padding-left:20px;
+    height:58px;
+    background:#eaeaea;
+}
+.cartitems-promobox input{
+    border:none;
+    outline:none;
+    background:transparent;
+    font-size:16px;
+    width:330px;
+    height:50px;
+}
+.cartitems-promobox button{
+    width:170px;
+    height:58px;
+    font-size:16px;
+    background:black;
+    color:white;
+    cursor:pointer;
+}
+.faplusicon{
+    position: relative;
+    left:15px;
+}
+.faminusicon{
+    position: relative;
+    left:-15px;
+}
+.cartdishpricespan>span{
+    font-size:12px;
+}

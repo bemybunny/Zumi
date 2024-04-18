@@ -1,0 +1,58 @@
+.productDisplay{
+    padding:20px;
+    display:flex;
+    flex-direction: column;
+    gap:20px;
+}
+.productcnt{
+    display:flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.dotted-line-container {
+    border-top: 1px dashed #000; /* Specify your desired color */ /* Adjust margin as needed */
+  }
+.green{
+    color:green;
+    font-weight: 600;
+}
+.starcnt{
+    display:flex;
+    flex-direction: column;
+    gap:5px;
+    text-align: center;
+    border:1px solid #dadada;
+    padding:5px;
+    border-radius: 4px;
+    padding-top:20px;
+    padding-bottom:20px;
+}
+.starcnt>span{
+    font-size: 14px;
+}
+.grey{
+    color:grey;
+}
+.productbox{
+    display: flex;
+    flex-direction: column;
+}
+.productime{
+    display:flex;
+    gap:50px;
+}
+.productimebox{
+    display:flex;
+    align-items: center;
+    gap:10px;
+}
+.productruppes{
+    display:flex;
+    align-items: center;
+}
+.product_offer{
+    display: flex;
+    overflow-x: auto;
+    white-space: nowrap;
+    gap:20px;
+}

@@ -1,0 +1,45 @@
+.topicks_overflow{
+    gap:40px;
+    display:flex;
+    overflow-x:auto;
+    white-space: nowrap;
+    
+}
+.topicks_image>img{
+    width:250px;
+}
+.topickbtn{
+    position: relative;
+    left:-150px;
+    top:-60px;
+    background-color: white;
+    outline:none;
+    border-style: none;
+    color:rgb(16, 170, 16);
+    padding:10px;
+    padding-left:30px;
+    padding-right:30px;
+    border:1px solid rgb(16, 170, 16);
+    border-radius: 6px;
+    font-size:14px;
+    font-weight: 500;
+}
+.iconadjust{
+    position: relative;
+    left:-165px;
+    top:-70px
+}
+.topickbtnclass{
+    position: relative;
+    left:150px;
+    top:-60px;
+    color:rgb(16, 170, 16);
+    border:1px solid rgb(16, 170, 16);
+}
+.topickfaminus{
+    color:rgb(16, 170, 16);
+}
+.topick_adjust{
+    position: relative;
+    left:-50px;
+}

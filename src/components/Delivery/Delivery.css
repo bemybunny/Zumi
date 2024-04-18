@@ -1,0 +1,41 @@
+.delivery{
+    margin-top:50px;
+    margin-left:70px;
+    margin-right: 70px;
+    display:flex;
+    flex-direction: column;
+    gap:30px;
+}
+.delivery_row{
+    display:flex;
+    gap:20px;
+}
+.delivery_box{
+    display:flex;
+    align-items: center;
+    gap:10px;
+}
+.delivery_box>img{
+    height: 30px;
+    padding: 20px; /* Adjusted padding */
+    background-color: rgb(245, 192, 156);
+    border-radius: 50%;
+    object-fit: cover;
+}
+.delivery_box>span{
+    color:rgb(255, 55, 55);
+    font-weight: 500;
+    font-size:22px;
+}
+.deliverybtn{
+    margin-bottom: 30px;
+}
+.deliverybtn>button{
+  padding:10px;
+  margin-left:10px;
+   border: 1px solid rgb(211, 206, 206);
+   border-radius: 4px;
+   color:grey;
+   background-color: white;
+
+}

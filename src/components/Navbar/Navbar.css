@@ -1,0 +1,56 @@
+.navbar{
+    display:flex;
+    align-items: center;
+    justify-content: space-around;
+}
+.navbarh{
+    font-style:italic;
+}
+.zomato{
+    height:25px;
+}
+.search_cnt{
+    width:500px;
+    display:flex;
+    gap:5px;
+    align-items: center;
+    padding:10px;
+    border-radius: 8px;
+    box-shadow: 1px 1px 1px 1px #e7e7e7;
+}
+.search_cnt>input{
+    flex:1;
+    border-style: none;
+    padding:5px;
+    outline:none;
+}
+.btn{
+    display:flex;
+    gap:20px;
+    align-items: center;
+}
+.navbarbtn{
+    background-color: rgb(252, 252, 252);
+    color:grey;
+    font-size:20px;
+    font-weight: 350;
+    border-style: none;;
+}
+.nav-cart-count{
+    width:22px;
+    height:22px;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    margin-top:-35px;
+    margin-left:-35px;
+    border-radius:11px;
+    font-size:14px;
+    background:red;
+    color:white;
+}
+.navbar_location{
+    display: flex;
+    gap:10px;
+    align-items: center;
+}
