@@ -28,7 +28,7 @@ const Signup = () => {
                 navigate('/');
                 getUser();
             } else {
-                alert(response.data.errors);
+                console.error('Axios error:');
             }
             } catch (error) {
             console.error('Axios error:', error.message);

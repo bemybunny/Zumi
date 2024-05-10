@@ -49,7 +49,7 @@ import pic11_img from "./top11.avif";
 let new_collections = [
   {
     id: 1,
-    name: "Pizza",
+    name: "Burger",
     category: "Fast Food",
     image: p1_img,
     new_price: 50.0,
@@ -57,7 +57,7 @@ let new_collections = [
   },
   {
     id: 2,
-    name: "Pizza",
+    name: "Burger",
     category: "Fast Food",
     image: p2_img,
     new_price: 85.0,
@@ -73,7 +73,7 @@ let new_collections = [
   },
   {
     id: 4,
-    name: "Pizza",
+    name: "Fried Rice",
     category: "Fast Food",
     image: p4_img,
     new_price: 100.0,
@@ -81,7 +81,7 @@ let new_collections = [
   },
   {
     id: 5,
-    name: "Pizza",
+    name: "Ice Cream",
     category: "Fast Food",
     image: p5_img,
     new_price: 85.0,
@@ -89,7 +89,7 @@ let new_collections = [
   },
   {
     id: 6,
-    name: "Pizza",
+    name: "veg roll",
     category: "Fast Food",
     image: p6_img,
     new_price: 85.0,
@@ -129,7 +129,7 @@ let new_collections = [
   },
   {
     id: 11,
-    name: "Pizza",
+    name: "roll",
     category: "Fast Food",
     image: p11_img,
     new_price: 85.0,
@@ -137,7 +137,7 @@ let new_collections = [
   },
   {
     id: 12,
-    name: "Pizza",
+    name: "Paneer",
     category: "Fast Food",
     image: p12_img,
     new_price: 85.0,
@@ -145,7 +145,7 @@ let new_collections = [
   },
   {
     id: 13,
-    name: "Burger",
+    name: "Chocolate",
     category: "Italic",
     image: p13_img,
     new_price: 85.0,
@@ -153,7 +153,7 @@ let new_collections = [
   },
   {
     id: 14,
-    name: "Burger",
+    name: "Paneer tikka",
     category: "Italic",
     image: p14_img,
     new_price: 85.0,
@@ -161,7 +161,7 @@ let new_collections = [
   },
   {
     id: 15,
-    name: "Burger",
+    name: "Thali",
     category: "Italic",
     image: p15_img,
     new_price: 85.0,
@@ -169,7 +169,7 @@ let new_collections = [
   },
   {
     id: 16,
-    name: "Burger",
+    name: "coffee",
     category: "Italic",
     image: p16_img,
     new_price: 85.0,
@@ -177,7 +177,7 @@ let new_collections = [
   },
   {
     id: 17,
-    name: "Burger",
+    name: "thali",
     category: "Italic",
     image: p17_img,
     new_price: 85.0,
@@ -185,7 +185,7 @@ let new_collections = [
   },
   {
     id: 18,
-    name: "Burger",
+    name: "Momos",
     category: "Italic",
     image: p18_img,
     new_price: 85.0,
@@ -193,7 +193,7 @@ let new_collections = [
   },
   {
     id: 19,
-    name: "Burger",
+    name: "paranthe",
     category: "Italic",
     image: p19_img,
     new_price: 85.0,
@@ -209,7 +209,7 @@ let new_collections = [
   },
   {
     id: 21,
-    name: "Burger",
+    name: "thali",
     category: "Italic",
     image: p21_img,
     new_price: 85.0,
@@ -217,7 +217,7 @@ let new_collections = [
   },
   {
     id: 22,
-    name: "Burger",
+    name: "thali",
     category: "Italic",
     image: p22_img,
     new_price: 85.0,
@@ -233,7 +233,7 @@ let new_collections = [
   },
   {
     id: 24,
-    name: "Burger",
+    name: "thali",
     category: "Italic",
     image: p24_img,
     new_price: 85.0,
@@ -241,7 +241,7 @@ let new_collections = [
   },
   {
     id: 25,
-    name: "Noodles",
+    name: "pizza",
     category: "chinese",
     image: p25_img,
     new_price: 85.0,
@@ -249,7 +249,7 @@ let new_collections = [
   },
   {
     id: 26,
-    name: "Noodles",
+    name: "thali",
     category: "chinese",
     image: p26_img,
     new_price: 85.0,
@@ -257,7 +257,7 @@ let new_collections = [
   },
   {
     id: 27,
-    name: "Noodles",
+    name: "biryani",
     category: "chinese",
     image: p27_img,
     new_price: 85.0,
@@ -265,7 +265,7 @@ let new_collections = [
   },
   {
     id: 28,
-    name: "Noodles",
+    name: "paneer",
     category: "chinese",
     image: p28_img,
     new_price: 85.0,
@@ -273,7 +273,7 @@ let new_collections = [
   },
   {
     id: 29,
-    name: "Noodles",
+    name: "coffee",
     category: "chinese",
     image: p29_img,
     new_price: 85.0,
@@ -281,7 +281,7 @@ let new_collections = [
   },
   {
     id: 30,
-    name: "Noodles",
+    name: "kadhai paneer",
     category: "chinese",
     image: p30_img,
     new_price: 85.0,
@@ -289,7 +289,7 @@ let new_collections = [
   },
   {
     id: 31,
-    name: "Noodles",
+    name: "Dosa",
     category: "chinese",
     image: p31_img,
     new_price: 85.0,
@@ -297,7 +297,7 @@ let new_collections = [
   },
   {
     id: 32,
-    name: "Noodles",
+    name: "fried",
     category: "chinese",
     image: p32_img,
     new_price: 85.0,
@@ -305,7 +305,7 @@ let new_collections = [
   },
   {
     id: 33,
-    name: "Noodles",
+    name: "pizza",
     category: "chinese",
     image: p33_img,
     new_price: 85.0,
@@ -321,7 +321,7 @@ let new_collections = [
   },
   {
     id: 35,
-    name: "Noodles",
+    name: "cake",
     category: "chinese",
     image: p35_img,
     new_price: 85.0,
@@ -329,7 +329,7 @@ let new_collections = [
   },
   {
     id: 36,
-    name: "Noodles",
+    name: "dal",
     category: "chinese",
     image: p36_img,
     new_price: 85.0,
@@ -338,7 +338,7 @@ let new_collections = [
   
   {
     id: 49,
-    name: "Pizza",
+    name: "Mc Donalds",
     category: "Fast Food",
     image: pic1_img,
     new_price: 50.0,
@@ -346,7 +346,7 @@ let new_collections = [
   },
   {
     id: 50,
-    name: "Pizza",
+    name: "Mc Donalds",
     category: "Fast Food",
     image: pic2_img,
     new_price: 85.0,
@@ -354,7 +354,7 @@ let new_collections = [
   },
   {
     id: 51,
-    name: "Pizza",
+    name: "Mc Donalds",
     category: "Fast Food",
     image: pic3_img,
     new_price: 60.0,
@@ -362,7 +362,7 @@ let new_collections = [
   },
   {
     id: 52,
-    name: "Pizza",
+    name: "Mc Donalds",
     category: "Fast Food",
     image: pic4_img,
     new_price: 100.0,
@@ -370,7 +370,7 @@ let new_collections = [
   },
   {
     id: 53,
-    name: "Pizza",
+    name: "Mc Donalds",
     category: "Fast Food",
     image: pic5_img,
     new_price: 85.0,
@@ -378,7 +378,7 @@ let new_collections = [
   },
   {
     id: 56,
-    name: "Pizza",
+    name: "Mc Donalds",
     category: "Fast Food",
     image: pic6_img,
     new_price: 85.0,
@@ -386,7 +386,7 @@ let new_collections = [
   },
   {
     id: 57,
-    name: "Pizza",
+    name: "Mc Donalds",
     category: "Fast Food",
     image: pic7_img,
     new_price: 85.0,
@@ -394,7 +394,7 @@ let new_collections = [
   },
   {
     id: 58,
-    name: "Pizza",
+    name: "Mc Donalds",
     category: "Fast Food",
     image: pic8_img,
     new_price: 85.0,
@@ -402,7 +402,7 @@ let new_collections = [
   },
   {
     id: 59,
-    name: "Pizza",
+    name: "Mc Donalds",
     category: "Fast Food",
     image: pic9_img,
     new_price: 85.0,
@@ -410,7 +410,7 @@ let new_collections = [
   },
   {
     id: 55,
-    name: "Pizza",
+    name: "Mc Donalds",
     category: "Fast Food",
     image: pic10_img,
     new_price: 85.0,
@@ -418,7 +418,7 @@ let new_collections = [
   },
   {
     id: 54,
-    name: "Pizza",
+    name: "Mc Donalds",
     category: "Fast Food",
     image: pic11_img,
     new_price: 85.0,
