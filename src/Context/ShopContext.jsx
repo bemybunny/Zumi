@@ -18,7 +18,7 @@ const ShopProvider = (props) => {
     const [inputVal, setInputVal] = useState('');
     const [filteredCollections, setFilteredCollections] = useState([]);
     const authToken = localStorage.getItem('auth-token');
-    console.log('Auth Token:', authToken);
+    //console.log('Auth Token:', authToken);
     
     const getUser = async () => {
         if (localStorage.getItem('auth-token')) {
