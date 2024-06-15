@@ -30,7 +30,7 @@ const ShopProvider = (props) => {
                     },
                 });
                 setCartItems(response.data);
-                console.log(response.data);
+                // console.log(response.data);
             } catch (error) {
                 console.log({"error in getcart frontend": error});
             }
@@ -45,7 +45,7 @@ const ShopProvider = (props) => {
         // Filter the collections based on the input value
         const filtered = new_collections.filter(item => item.name.toLowerCase() === inputVal.toLowerCase());
         setFilteredCollections(filtered);
-        console.log(filtered);
+        // console.log(filtered);
     }, [inputVal]);
 
     const addToCart = async (itemId) => {

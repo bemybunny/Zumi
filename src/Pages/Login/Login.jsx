@@ -16,8 +16,8 @@ const Login = () => {
 
     const handleSubmit = async (e) => {
       e.preventDefault();
-      console.log(email);
-      console.log(password);
+      // console.log(email);
+      // console.log(password);
       try {
         
         const response = await axios.post(`${BASE_URL}/login`, {
@@ -26,7 +26,7 @@ const Login = () => {
         });
 
         const responseData = response.data;
-        console.log(responseData);
+        //console.log(responseData);
         if(responseData.success){
             localStorage.setItem('auth-token',responseData.token);
             await getUser();
