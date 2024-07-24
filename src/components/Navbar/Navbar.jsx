@@ -5,16 +5,15 @@ import { Link } from 'react-router-dom';
 import cart_icon from '../assets/cart_icon.png';
 import { ShopContext } from '../../Context/ShopContext';
 import { useNavigate } from 'react-router-dom';
-import { FaLocationDot, FaSignInAlt, FaUserPlus } from "react-icons/fa";
+import { FaMapMarkerAlt } from "react-icons/fa";
 
 const Navbar = () => {
   const { getUser, getTotalCartItem, inputVal, setInputVal } = useContext(ShopContext);
   const [toggle, setToggle] = useState(false);
   const navigate = useNavigate();
-
   const handleClick = () => {
     setToggle(!toggle);
-  }
+  };
 
   return (
     <div className="navbar">
@@ -22,20 +21,16 @@ const Navbar = () => {
       <div className="navbar_location">
         {toggle === false ? (
           <Link to="/googlemap">
-            <FaLocationDot color="rgb(255, 55, 55)" size={25} onClick={handleClick} />
+            <FaMapMarkerAlt color="rgb(255, 55, 55)" size={25} onClick={handleClick} />
           </Link>
         ) : (
           <Link to="/">
-            <FaLocationDot color="rgb(255, 55, 55)" size={25} onClick={handleClick} />
+            <FaMapMarkerAlt color="rgb(255, 55, 55)" size={25} onClick={handleClick} />
           </Link>
         )}
         <div className="search_cnt">
           <CiSearch />
-          <input 
-            placeholder="Search for restaurants, cuisines, or dishes" 
-            value={inputVal} 
-            onChange={(e) => setInputVal(e.target.value)} 
-          />
+          <input placeholder="Search for restaurants, cuisines, or dishes" value={inputVal} onChange={(e) => setInputVal(e.target.value)} />
         </div>
       </div>
 
@@ -52,23 +47,21 @@ const Navbar = () => {
           <div className="auth-buttons">
             <button className="navbarbtn">
               <Link to="/login" style={{ textDecoration: 'none', color: 'grey' }}>
-                <FaSignInAlt size={20} /> Log in
+               Log in
               </Link>
             </button>
             <button className="navbarbtn">
               <Link to="/signup" style={{ textDecoration: 'none', color: 'grey' }}>
-                <FaUserPlus size={20} /> Sign up
+                Sign up
               </Link>
             </button>
           </div>
         )}
-        <Link to="/cart">
-          <img src={cart_icon} alt="Cart" />
-        </Link>
+        <Link to="/cart"><img src={cart_icon} alt="Cart" /></Link>
         <div className="nav-cart-count">{getTotalCartItem()}</div>
       </div>
     </div>
-  )
-}
+  );
+};
 
 export default Navbar;
