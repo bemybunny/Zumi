@@ -19,7 +19,6 @@ const Login = () => {
       // console.log(email);
       // console.log(password);
       try {
-        
         const response = await axios.post(`${BASE_URL}/login`, {
           email: email,
           password: password,

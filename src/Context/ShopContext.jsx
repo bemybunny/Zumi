@@ -2,6 +2,7 @@ import React, { useState, useEffect, createContext } from "react";
 import axios from 'axios';
 import { BASE_URL } from "../helper.js";
 import new_collections from "../components/assets/new_collections.js";
+
 const ShopContext = createContext(null);
 
 const getDefaultCart = () => {

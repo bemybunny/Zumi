@@ -5,6 +5,7 @@ import './Allcards.css';
 import { ShopContext } from '../../Context/ShopContext';
 
 const Allcards = () => {
+    
     const { filteredCollections } = useContext(ShopContext);
 
     return (
@@ -15,8 +16,8 @@ const Allcards = () => {
                         <Card key={i} id={item.id} image={item.image} />
                     ))
                 ) : (
-                    new_collections.map((item, i) => (
-                        <Card key={i} id={item.id} image={item.image} />
+                    new_collections.map((item) => (
+                        <Card key={item.id} id={item.id} image={item.image} />
                     ))
                 )}
             </div>

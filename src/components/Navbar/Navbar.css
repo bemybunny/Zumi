@@ -1,56 +1,207 @@
-.navbar{
-    display:flex;
+/* Default styles for larger screens */
+.navbar {
+    display: flex;
     align-items: center;
-    justify-content: space-around;
+    justify-content: space-between;
+    padding: 10px;
 }
-.navbarh{
-    font-style:italic;
+
+.navbarh {
+    font-style: italic;
 }
-.zomato{
-    height:25px;
-}
-.search_cnt{
-    width:500px;
-    display:flex;
-    gap:5px;
+
+.search_cnt {
+    width: 400px;
+    display: flex;
+    gap: 5px;
     align-items: center;
-    padding:10px;
+    padding: 10px;
     border-radius: 8px;
     box-shadow: 1px 1px 1px 1px #e7e7e7;
 }
-.search_cnt>input{
-    flex:1;
+
+.search_cnt > input {
+    flex: 1;
     border-style: none;
-    padding:5px;
-    outline:none;
+    padding: 5px;
+    outline: none;
 }
-.btn{
-    display:flex;
-    gap:20px;
-    align-items: center;
-}
-.navbarbtn{
-    background-color: rgb(252, 252, 252);
-    color:grey;
-    font-size:20px;
-    font-weight: 350;
-    border-style: none;;
-}
-.nav-cart-count{
-    width:22px;
-    height:22px;
-    display:flex;
-    justify-content:center;
-    align-items:center;
-    margin-top:-35px;
-    margin-left:-35px;
-    border-radius:11px;
-    font-size:14px;
-    background:red;
-    color:white;
-}
-.navbar_location{
+
+.btn {
     display: flex;
-    gap:10px;
+    gap: 20px;
     align-items: center;
+    position: relative;
+}
+
+.navbarbtn {
+    background-color: rgb(252, 252, 252);
+    color: grey;
+    font-size: 20px;
+    font-weight: 350;
+    border-style: none;
+    display: flex;
+    align-items: center;
+    gap: 5px;
+}
+
+.nav-cart-count {
+    width: 22px;
+    height: 22px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 11px;
+    font-size: 14px;
+    background: red;
+    color: white;
+    position: absolute;
+    top: -10px;
+    right: -10px;
+}
+
+.navbar_location {
+    display: flex;
+    gap: 10px;
+    align-items: center;
+}
+
+.auth-buttons {
+    display: flex;
+    gap: 10px;
+}
+
+/* Medium devices (tablets, 768px and up) */
+@media (max-width: 768px) {
+    .navbar {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+    }
+
+    .nav-cart-count {
+        width: 22px;
+        height: 22px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        border-radius: 11px;
+        font-size: 14px;
+        background: red;
+        color: white;
+        position: absolute;
+        top: -10px;
+        right: -10px;
+    }
+
+    .search_cnt {
+        width: 200px;
+        margin-top: 10px;
+    }
+
+    .navbar_location {
+        display: flex;
+        gap: 10px;
+        align-items: center;
+    }
+
+    .btn {
+        display: flex;
+        gap: 10px;
+        align-items: flex-start;
+    }
+
+    .nav-cart-count {
+        margin-top: 0;
+        margin-left: 0;
+    }
+}
+
+/* Devices between 768px and 1025px */
+@media (min-width: 769px) and (max-width: 1025px) {
+    .navbar {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        padding: 10px;
+        margin-left: 40px;
+        margin-right: 40px;
+    }
+
+    .search_cnt {
+        width: 300px;
+    }
+
+    .navbar_location {
+        display: flex;
+        gap: 10px;
+        align-items: center;
+    }
+
+    .btn {
+        display: flex;
+        gap: 15px;
+        align-items: center;
+    }
+
+    .nav-cart-count {
+        width: 20px;
+        height: 20px;
+        font-size: 13px;
+        top: -8px;
+        right: -8px;
+    }
+}
+
+/* Small devices (phones, 480px and up) */
+@media (max-width: 480px) {
+    .navbar {
+        flex-direction: column;
+        align-items: flex-start;
+        padding: 5px;
+    }
+
+    .search_cnt {
+        width: 100%;
+        margin-top: 10px;
+        padding: 8px;
+    }
+
+    .search_cnt > input {
+        padding: 4px;
+    }
+
+    .navbar_location {
+        display: flex;
+        gap: 10px;
+        align-items: center;
+    }
+
+    .btn {
+        flex-direction: column;
+        gap: 8px;
+    }
+
+    .navbarbtn {
+        font-size: 18px;
+    }
+
+    .nav-cart-count {
+        width: 18px;
+        height: 18px;
+        font-size: 12px;
+        margin-top: 0;
+        margin-left: 0;
+        position: absolute;
+        top: -10px;
+        right: -10px;
+    }
+}
+
+/* Large screens (1026px and up) */
+@media (min-width: 1026px) {
+    .navbar {
+        margin-left: 200px;
+        margin-right: 200px;
+    }
 }

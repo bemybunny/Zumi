@@ -1,4 +1,21 @@
-.dishes{
-    margin-left:200px;
-    margin-right:200px;
+.dishes {
+    margin-left: 200px;
+    margin-right: 200px;
+    /* Add any other styling as needed */
+}
+
+/* Large mobile devices or small tablets (481px to 768px) */
+@media (max-width: 1025px) {
+    .dishes {
+        margin-left: 50px;
+        margin-right: 50px;
+    }
+}
+
+/* Mobile devices (≤480px) */
+@media (max-width: 480px) {
+    .dishes {
+        margin-left: 20px;
+        margin-right: 20px;
+    }
 }

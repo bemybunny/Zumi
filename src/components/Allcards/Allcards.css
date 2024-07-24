@@ -1,11 +1,45 @@
+/* Default styles for large screens */
 .grid-container {
     display: grid;
-    grid-template-columns: 1fr 1fr 1fr;
-    gap: 100px;
+    grid-template-columns: 1fr 1fr 1fr; /* Three columns layout */
+    gap: 100px; /* Space between grid items */
     /* Add any additional styling for the grid container */
 }
-.allcard_container{
-    display:flex;
+
+.allcard_container {
+    display: flex;
     align-items: center;
     justify-content: center;
+}
+
+/* Mobile devices (≤480px) */
+@media (max-width: 480px) {
+    .grid-container {
+        grid-template-columns: 1fr; /* Single column layout */
+        gap: 30px; /* Space between grid items */
+    }
+}
+
+/* Large mobile devices or small tablets (481px to 768px) */
+@media (min-width: 481px) and (max-width: 768px) {
+    .grid-container {
+        grid-template-columns: 1fr 1fr; /* Two columns layout */
+        gap: 30px; /* Space between grid items */
+    }
+}
+
+/* Tablets and small desktops (769px to 1025px) */
+@media (min-width: 769px) and (max-width: 1025px) {
+    .grid-container {
+        grid-template-columns: 1fr 1fr 1fr; /* Three columns layout */
+        gap: 30px; /* Space between grid items */
+    }
+}
+
+/* Large desktops (≥1026px) */
+@media (min-width: 1026px) {
+    .grid-container {
+        grid-template-columns: 1fr 1fr 1fr; /* Three columns layout */
+        gap: 100px; /* Space between grid items */
+    }
 }
